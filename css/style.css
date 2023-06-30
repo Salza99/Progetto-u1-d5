@@ -1,6 +1,6 @@
 /*CSS generale*/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 
 body {
   margin: 0;
@@ -80,6 +80,39 @@ section p {
 
 /*CSS div*/
 #cnt-page {
+  background-color: #e22d0e;
+}
+#cnt-page h2,
+#cnt-page h4,
+#cnt-page p {
+  color: white;
+  padding: 1.2rem 1.2rem;
+}
+#cnt-page h2 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#cnt-page h4 {
+  padding-bottom: 0;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+#cnt-page p {
+  font-weight: 400;
+  font-style: italic;
+}
+#cnt-page p:last-child {
+  padding-top: 0;
+  padding-bottom: 2rem;
+  font-size: 0.7rem;
+}
+/*CSS last div*/
+#frs-sec-img {
+}
+#scn-sec-img {
+}
+#trd-sec-img {
 }
 /*CSS footer*/
 footer,
